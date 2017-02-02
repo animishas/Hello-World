@@ -1,1 +1,15 @@
+@{
+    ViewBag.Title = "Index";
+}
+<!DOCTYPE hmtl>
+<html>
+ <body>
+<script type ="text/javascript" src ="@Url.Action("~MyScripts/AgeJavaScript.js")"></script>
+<h2>Enter Your Age Here</h2>
+<input id="Text1" type="text"/>
+<button id="Button1" type="button" value ="Submit" onclick="myfunction()"/>
 
+　
+    
+</body>
+    </html>
